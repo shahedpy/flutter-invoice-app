@@ -1,9 +1,8 @@
 import 'dart:typed_data';
-
+import 'package:dotted_border/dotted_border.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-
 import '../../../../constants/colors.dart';
 import '../../../../constants/strings.dart';
 import '../../../../controllers/business_controller.dart';
@@ -11,6 +10,7 @@ import '../../../../controllers/invoice_controller.dart';
 import '../../../../env/dimensions.dart';
 import '../../../shared_widgets/appbar_eng_view.dart';
 import '../../../shared_widgets/custom_btn.dart';
+import '../../../shared_widgets/custom_input_eng.dart';
 import '../../../shared_widgets/custom_text.dart';
 
 class NewBusinessScreen extends StatelessWidget {

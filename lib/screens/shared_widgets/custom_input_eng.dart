@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../../constants/colors.dart';
 import '../../env/dimensions.dart';
+import 'custom_rich_text.dart';
 
 class CustomInput_eng extends StatelessWidget {
   final TextEditingController? controller;
